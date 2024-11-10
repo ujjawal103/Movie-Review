@@ -62,7 +62,7 @@ let Satyam_Raj = [
         id:"101",
         username: 'Satyam Raj',
         movie: 'Chhichhore',
-        review: '*Chhichhore* is a heartwarming and inspiring film that beautifully portrays the importance of friendship, resilience, and the pressure of academic life. The story, which shifts between college days and adulthood, is filled with humor, emotion, and relatable moments. The performances by the ensemble cast, especially Sushant Singh Rajput, are touching and memorable. With its strong message about failure and success, *Chhichhore* is a must-watch for anyone who appreciates stories about life and relationships!',
+        review: `Chhichhore is a touching film about friendship, resilience, and life’s pressures, delivering a heartfelt message on failure and success.`,
         imagePath: '/images/uploads\\1730662531299.webp',
         rating: '4'
       },
@@ -70,7 +70,7 @@ let Satyam_Raj = [
         id:"102",
         username: 'Satyam Raj',
         movie: 'Genius',
-        review: "*Genius* is an engaging Bollywood thriller that combines action, drama, and romance. The story revolves around a young genius who uses his intelligence to fight against corruption and injustice. The performances are strong, especially the lead, who captures the character's depth and determination. With its exciting plot twists and emotional moments, *Genius* keeps you entertained throughout. It's a captivating film for anyone who enjoys smart storytelling and action!",
+        review: "Genius is an engaging Bollywood thriller featuring a young genius fighting corruption, with strong performances, action, and emotional twists.",
         imagePath: '/images/uploads\\1730662463799.jpeg',
         rating: '5'
       }
@@ -80,7 +80,7 @@ let Satyam_Sharma = [
         id:"103",
         username: 'Satyam Sharma',
         movie: 'Singham Again',
-        review: "*Singham Again* doesn't live up to the previous movies. The story is predictable, and the dialogues are boring. Even with a good cast, it feels repetitive and slow, making it a dull watch for fans of action films.",
+        review: "Singham Again falls short of its predecessors with a predictable story, dull dialogues, and a slow, repetitive feel.",
         imagePath: '/images/uploads\\1730662908787.jpg',
         rating: '1'
       },
@@ -88,7 +88,7 @@ let Satyam_Sharma = [
         id:"104",
         username: 'Satyam Sharma',
         movie: 'Jawan',
-        review: "Jawan is a thrilling action-packed film that combines high-stakes drama with a gripping storyline. Shah Rukh Khan delivers a powerful dual performance, showcasing his versatility and charisma. The film features breathtaking action sequences, impressive visuals, and a strong social message that resonates with audiences. With a talented supporting cast and a well-crafted plot, *Jawan* keeps you engaged from start to finish. It's a must-watch for fans of thrilling cinema and those who appreciate a good blend of action and emotion!",
+        review: "Jawan is a high-stakes action film with Shah Rukh Khan’s powerful dual role, thrilling action, and a resonant social message, making it a must-watch.",
         imagePath: '/images/uploads\\1730662804344.jpeg',
         rating: '4'
       }
@@ -98,7 +98,7 @@ let Vikas_Tiwari = [
         id:"105",
         username: 'Vikas Tiwari',
         movie: 'HACKED',
-        review: "*Hacked* is a gripping psychological thriller that delves into the dark side of obsession and technology. The story follows a young hacker who becomes dangerously infatuated with a girl, leading to intense and chilling consequences. The performances are strong, particularly by the lead, who effectively portrays the character's descent into madness. With its intriguing plot twists and a suspenseful atmosphere, *Hacked* keeps viewers engaged and on edge. It's a compelling film for those who enjoy tense, thought-provoking thrillers!",
+        review: "Hacked is a suspenseful thriller about obsession and technology, with strong performances and intense plot twists that keep viewers hooked.",
         imagePath: '/images/uploads\\1730662704678.jpeg',
         rating: '4'
       },
@@ -106,7 +106,7 @@ let Vikas_Tiwari = [
         id:"106",
         username: 'Vikas Tiwari',
         movie: 'WAR',
-        review: '*WAR* is an exhilarating action thriller that keeps you on the edge of your seat with its stunning visuals and high-octane sequences. Featuring Hrithik Roshan and Tiger Shroff in lead roles, the film showcases a gripping cat-and-mouse game between two skilled agents. The chemistry between the leads is electric, and their jaw-dropping action scenes are a highlight. With a captivating storyline, stylish direction, and a powerful soundtrack, *WAR* is a must-watch for fans of action-packed cinema!',
+        review: 'WAR is a thrilling action film featuring Hrithik Roshan and Tiger Shroff in an intense cat-and-mouse chase, highlighted by stunning visuals and electrifying action scenes.',
         imagePath: '/images/uploads\\1730662654282.jpeg',
         rating: '3'
       }
@@ -116,7 +116,7 @@ let Shailendra_Singh = [
         id:"107",
         username: 'Shailendra Singh',
         movie: 'Kalki 2898 AD',
-        review: '*Kalki 2898 AD* is a visionary sci-fi movie set in a futuristic world with stunning visuals and intense storytelling. With Prabhas in the lead, the film combines mythology and science fiction, creating a unique cinematic experience. Its impressive visuals, gripping plot, and deep themes make it an exciting watch for fans of futuristic action dramas.',
+        review: 'Kalki 2898 AD is a futuristic sci-fi film blending mythology with intense storytelling, featuring Prabhas in a visually stunning, action-packed experience.',
         imagePath: '/images/uploads\\1730662086396.webp',
         rating: '4'
       },
@@ -124,7 +124,7 @@ let Shailendra_Singh = [
         id:"108",
         username: 'Shailendra Singh',
         movie: 'KGF',
-        review: '*KGF* is an epic action drama that captivates with its intense storyline, powerful performances, and gritty visuals. Following Rocky’s journey from poverty to power, the film is packed with thrilling moments and strong emotions. Yash’s dynamic performance as Rocky elevates the story, making each scene memorable. With its raw energy, dramatic soundtrack, and grand cinematography, *KGF* is a must-watch for action lovers and fans of impactful storytelling.',
+        review: 'KGF is a gripping action drama featuring Yash as Rocky, with intense storytelling, powerful visuals, and memorable scenes.',
         imagePath: '/images/uploads\\1730662034949.jpeg',
         rating: '4'
       },
@@ -132,7 +132,7 @@ let Shailendra_Singh = [
         id:"109",
         username: 'Shailendra Singh',
         movie: 'Salaar',
-        review: '*Salaar* is a thrilling South Indian action movie with powerful visuals and intense fight scenes. Prabhas shines in a strong role, bringing depth to his character. It’s a gripping, high-energy film that action fans will love!',
+        review: 'Salaar is an action-packed South Indian film with intense fight scenes and Prabhas delivering a powerful performance in a gripping storyline.',
         imagePath: '/images/uploads\\1730662007538.jpeg',
         rating: '5'
       }
@@ -142,7 +142,7 @@ let Ujjawal_Jaiswal = [
         id:"110",
         username: 'Ujjawal Jaiswal',
         movie: 'My Girlfriend is an Alien',
-        review: '*My Girlfriend is an Alien* is an irresistibly fun and quirky series, blending romance, comedy, and a touch of sci-fi. The story of an alien girl adjusting to life on Earth—and falling for a human—brings tons of laughs and heartwarming moments. The chemistry between the leads is electric, making every interaction feel vibrant and unforgettable. It’s the perfect blend of fantasy and romance, ideal for anyone looking for a lighthearted, unique love story.',
+        review: 'My Girlfriend is an Alien is a charming romantic-comedy series, mixing sci-fi with humor and heartwarming moments.',
         imagePath: '/images/uploads\\1730661959049.webp',
         rating: '5'
       },
@@ -150,7 +150,7 @@ let Ujjawal_Jaiswal = [
         id:"111",
         username: 'Ujjawal Jaiswal',
         movie: 'Put Your Head on My Shoulder',
-        review: '*Put Your Head on My Shoulder* is a heartwarming, feel-good C-drama that beautifully captures young love and self-discovery. The chemistry between Si Tu Mo and Gu Wei Yi is charming and relatable, making each episode a joy to watch. It’s a sweet, lighthearted story that’s perfect for anyone wanting an easygoing, delightful romance—an ideal first C-drama experience!',
+        review: 'Put Your Head on My Shoulder is a charming C-drama that captures young love and self-discovery with delightful chemistry and a heartwarming story.',
         imagePath: '/images/uploads\\1730661918715.jpeg',
         rating: '3'
       }
@@ -160,7 +160,7 @@ let Dheeraj_Singh = [
         id:"112",
         username: 'Dheeraj Singh',
         movie: 'pathan',
-        review: '*Pathaan* is an action-packed Bollywood thriller that delivers nonstop excitement with high-octane stunts and a gripping storyline. Shah Rukh Khan shines in the role, bringing charisma and intensity as a fearless spy on a mission. The film’s impressive visuals, thrilling sequences, and powerful performances make it a must-watch. With twists, adrenaline, and star power, *Pathaan* is a perfect pick for action lovers!',
+        review: 'Pathaan is a thrilling Bollywood action film with Shah Rukh Khan delivering a charismatic performance as a fearless spy.',
         imagePath: '/images/uploads\\1730662262972.jpeg',
         rating: '3'
       },
@@ -168,7 +168,7 @@ let Dheeraj_Singh = [
         id:"113",
         username: 'Dheeraj Singh',
         movie: 'Pushpa',
-        review: '*Pushpa* is a gritty action-drama that captures the journey of a fearless, rebellious man rising in the red sandalwood smuggling world. Allu Arjun’s electrifying performance as Pushpa, with his unique style and intensity, brings a raw, magnetic energy to the film. The powerful dialogues, catchy soundtrack, and action-packed scenes make it a thrilling watch. *Pushpa* is a must-see for fans of action and character-driven storytelling!',        
+        review: 'Pushpa is an intense action-drama featuring Allu Arjun’s powerful performance in a thrilling story of rebellion and survival.',        
         imagePath: '/images/uploads\\1730662203057.jpeg',
         rating: '4'
       }
@@ -178,7 +178,7 @@ let allPosts = [
         id:"101",
         username: 'Satyam Raj',
         movie: 'Chhichhore',
-        review: '*Chhichhore* is a heartwarming and inspiring film that beautifully portrays the importance of friendship, resilience, and the pressure of academic life. The story, which shifts between college days and adulthood, is filled with humor, emotion, and relatable moments. The performances by the ensemble cast, especially Sushant Singh Rajput, are touching and memorable. With its strong message about failure and success, *Chhichhore* is a must-watch for anyone who appreciates stories about life and relationships!',
+        review: 'Chhichhore is a touching film about friendship, resilience, and life’s pressures, delivering a heartfelt message on failure and success.',
         imagePath: '/images/uploads\\1730662531299.webp',
         rating: '4'
       },
@@ -186,7 +186,7 @@ let allPosts = [
         id:"113",
         username: 'Dheeraj Singh',
         movie: 'Pushpa',
-        review: '*Pushpa* is a gritty action-drama that captures the journey of a fearless, rebellious man rising in the red sandalwood smuggling world. Allu Arjun’s electrifying performance as Pushpa, with his unique style and intensity, brings a raw, magnetic energy to the film. The powerful dialogues, catchy soundtrack, and action-packed scenes make it a thrilling watch. *Pushpa* is a must-see for fans of action and character-driven storytelling!',        
+        review: 'Pushpa is an intense action-drama featuring Allu Arjun’s powerful performance in a thrilling story of rebellion and survival.',        
         imagePath: '/images/uploads\\1730662203057.jpeg',
         rating: '4'
       },
@@ -194,7 +194,7 @@ let allPosts = [
         id:"103",
         username: 'Satyam Sharma',
         movie: 'Singham Again',
-        review: "*Singham Again* doesn't live up to the previous movies. The story is predictable, and the dialogues are boring. Even with a good cast, it feels repetitive and slow, making it a dull watch for fans of action films.",
+        review: "Singham Again falls short of its predecessors with a predictable story, dull dialogues, and a slow, repetitive feel.",
         imagePath: '/images/uploads\\1730662908787.jpg',
         rating: '1'
       },
@@ -202,7 +202,7 @@ let allPosts = [
         id:"105",
         username: 'Vikas Tiwari',
         movie: 'HACKED',
-        review: "*Hacked* is a gripping psychological thriller that delves into the dark side of obsession and technology. The story follows a young hacker who becomes dangerously infatuated with a girl, leading to intense and chilling consequences. The performances are strong, particularly by the lead, who effectively portrays the character's descent into madness. With its intriguing plot twists and a suspenseful atmosphere, *Hacked* keeps viewers engaged and on edge. It's a compelling film for those who enjoy tense, thought-provoking thrillers!",
+        review: "Hacked is a suspenseful thriller about obsession and technology, with strong performances and intense plot twists that keep viewers hooked.",
         imagePath: '/images/uploads\\1730662704678.jpeg',
         rating: '4'
       },
@@ -210,7 +210,7 @@ let allPosts = [
         id:"112",
         username: 'Dheeraj Singh',
         movie: 'pathan',
-        review: '*Pathaan* is an action-packed Bollywood thriller that delivers nonstop excitement with high-octane stunts and a gripping storyline. Shah Rukh Khan shines in the role, bringing charisma and intensity as a fearless spy on a mission. The film’s impressive visuals, thrilling sequences, and powerful performances make it a must-watch. With twists, adrenaline, and star power, *Pathaan* is a perfect pick for action lovers!',
+        review: 'Pathaan is a thrilling Bollywood action film with Shah Rukh Khan delivering a charismatic performance as a fearless spy.',
         imagePath: '/images/uploads\\1730662262972.jpeg',
         rating: '3'
       },
@@ -218,7 +218,7 @@ let allPosts = [
         id:"108",
         username: 'Shailendra Singh',
         movie: 'KGF',
-        review: '*KGF* is an epic action drama that captivates with its intense storyline, powerful performances, and gritty visuals. Following Rocky’s journey from poverty to power, the film is packed with thrilling moments and strong emotions. Yash’s dynamic performance as Rocky elevates the story, making each scene memorable. With its raw energy, dramatic soundtrack, and grand cinematography, *KGF* is a must-watch for action lovers and fans of impactful storytelling.',
+        review: `KGF is a gripping action drama featuring Yash as Rocky, with intense storytelling, powerful visuals, and memorable scenes.`,
         imagePath: '/images/uploads\\1730662034949.jpeg',
         rating: '4'
       },
@@ -226,7 +226,7 @@ let allPosts = [
         id:"110",
         username: 'Ujjawal Jaiswal',
         movie: 'My Girlfriend is an Alien',
-        review: '*My Girlfriend is an Alien* is an irresistibly fun and quirky series, blending romance, comedy, and a touch of sci-fi. The story of an alien girl adjusting to life on Earth—and falling for a human—brings tons of laughs and heartwarming moments. The chemistry between the leads is electric, making every interaction feel vibrant and unforgettable. It’s the perfect blend of fantasy and romance, ideal for anyone looking for a lighthearted, unique love story.',
+        review: 'My Girlfriend is an Alien is a charming romantic-comedy series, mixing sci-fi with humor and heartwarming moments.',
         imagePath: '/images/uploads\\1730661959049.webp',
         rating: '5'
       },
@@ -234,7 +234,7 @@ let allPosts = [
         id:"106",
         username: 'Vikas Tiwari',
         movie: 'WAR',
-        review: '*WAR* is an exhilarating action thriller that keeps you on the edge of your seat with its stunning visuals and high-octane sequences. Featuring Hrithik Roshan and Tiger Shroff in lead roles, the film showcases a gripping cat-and-mouse game between two skilled agents. The chemistry between the leads is electric, and their jaw-dropping action scenes are a highlight. With a captivating storyline, stylish direction, and a powerful soundtrack, *WAR* is a must-watch for fans of action-packed cinema!',
+        review: 'WAR is a thrilling action film featuring Hrithik Roshan and Tiger Shroff in an intense cat-and-mouse chase, highlighted by stunning visuals and electrifying action scenes.',
         imagePath: '/images/uploads\\1730662654282.jpeg',
         rating: '3'
       },
@@ -242,7 +242,7 @@ let allPosts = [
         id:"107",
         username: 'Shailendra Singh',
         movie: 'Kalki 2898 AD',
-        review: '*Kalki 2898 AD* is a visionary sci-fi movie set in a futuristic world with stunning visuals and intense storytelling. With Prabhas in the lead, the film combines mythology and science fiction, creating a unique cinematic experience. Its impressive visuals, gripping plot, and deep themes make it an exciting watch for fans of futuristic action dramas.',
+        review: 'Kalki 2898 AD is a futuristic sci-fi film blending mythology with intense storytelling, featuring Prabhas in a visually stunning, action-packed experience.',
         imagePath: '/images/uploads\\1730662086396.webp',
         rating: '4'
       },
@@ -250,7 +250,7 @@ let allPosts = [
         id:"104",
         username: 'Satyam Sharma',
         movie: 'Jawan',
-        review: "Jawan is a thrilling action-packed film that combines high-stakes drama with a gripping storyline. Shah Rukh Khan delivers a powerful dual performance, showcasing his versatility and charisma. The film features breathtaking action sequences, impressive visuals, and a strong social message that resonates with audiences. With a talented supporting cast and a well-crafted plot, *Jawan* keeps you engaged from start to finish. It's a must-watch for fans of thrilling cinema and those who appreciate a good blend of action and emotion!",
+        review: "Jawan is a high-stakes action film with Shah Rukh Khan’s powerful dual role, thrilling action, and a resonant social message, making it a must-watch.",
         imagePath: '/images/uploads\\1730662804344.jpeg',
         rating: '4'
       },
@@ -258,7 +258,7 @@ let allPosts = [
         id:"109",
         username: 'Shailendra Singh',
         movie: 'Salaar',
-        review: '*Salaar* is a thrilling South Indian action movie with powerful visuals and intense fight scenes. Prabhas shines in a strong role, bringing depth to his character. It’s a gripping, high-energy film that action fans will love!',
+        review: 'Salaar is an action-packed South Indian film with intense fight scenes and Prabhas delivering a powerful performance in a gripping storyline.',
         imagePath: '/images/uploads\\1730662007538.jpeg',
         rating: '5'
       },
@@ -266,7 +266,7 @@ let allPosts = [
         id:"111",
         username: 'Ujjawal Jaiswal',
         movie: 'Put Your Head on My Shoulder',
-        review: '*Put Your Head on My Shoulder* is a heartwarming, feel-good C-drama that beautifully captures young love and self-discovery. The chemistry between Si Tu Mo and Gu Wei Yi is charming and relatable, making each episode a joy to watch. It’s a sweet, lighthearted story that’s perfect for anyone wanting an easygoing, delightful romance—an ideal first C-drama experience!',
+        review: 'Put Your Head on My Shoulder is a charming C-drama that captures young love and self-discovery with delightful chemistry and a heartwarming story.',
         imagePath: '/images/uploads\\1730661918715.jpeg',
         rating: '3'
       },
@@ -274,7 +274,7 @@ let allPosts = [
         id:"102",
         username: 'Satyam Raj',
         movie: 'Genius',
-        review: "*Genius* is an engaging Bollywood thriller that combines action, drama, and romance. The story revolves around a young genius who uses his intelligence to fight against corruption and injustice. The performances are strong, especially the lead, who captures the character's depth and determination. With its exciting plot twists and emotional moments, *Genius* keeps you entertained throughout. It's a captivating film for anyone who enjoys smart storytelling and action!",
+        review: "Genius is an engaging Bollywood thriller featuring a young genius fighting corruption, with strong performances, action, and emotional twists.",
         imagePath: '/images/uploads\\1730662463799.jpeg',
         rating: '5'
       }  
