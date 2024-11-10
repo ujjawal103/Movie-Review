@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review's</title>
+    <link rel="stylesheet" href="/styleSheets/userProfile.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Movie Review's</h1>
+        </div>
+        <section>
+            <a href="/users">Users</a>
+            <a href="/users">Login To Add New Movie Review</a>
+        </section>
+        
+    </header>
+    <header id="fakeWala"></header>
+    <div id="main">
+        <% for(let post of allPosts){ %>
+         <div class="all">
+            <h2>@<%= post.username %></h2>
+            <div class="reviews">
+                <div class="left">
+                    <h1><%= post.movie %></h1>
+                    <p><%= post.review %></p>
+                </div>
+               <div class="right">
+                 <div class="pic">
+                    <img src="<%= post.imagePath %>" alt="movie Image">
+                 </div>
+                 <div class="stars">
+                    <% for(let i = 0 ; i<post.rating ; i++){  %>
+                        <span class="star gold">★</span>
+                    <% } %>
+                    <% for(let i = post.rating ; i<5 ; i++){  %>
+                        <span class="star">★</span>
+                    <% } %>
+                 </div>
+                  
+               </div>
+            </div>
+         </div>
+        <% } %>
+    </div>
+</body>
+</html>

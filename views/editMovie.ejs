@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit-Review</title>
+    <link rel="stylesheet" href="/styleSheets/newMovie.css">
+    <style>
+        .stars {
+            display: flex;
+            gap: 5px;
+            cursor: pointer;
+        }
+        .star {
+            font-size: 2em;
+            color: lightgray;
+        }
+        .star.selected {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    
+    <form method="post" action="/users/<%=post.username%>/<%=post.id%>/edit" enctype="multipart/form-data">
+        <h2>Edit Movie Review</h2>
+        <div id="all">
+            <div id="left">
+                <input type="text" name="movie" id="movie" required value="<%= post.movie %>">
+                 <div><textarea name="review" id="review" rows="6" cols="12"><%= post.review %></textarea></div>
+            </div>
+            <div id="right">
+                <div class="imagePreview">
+                    <img src="<%= post.imagePath %>" alt="movie image" id="movieImage">
+                </div>
+                <input type="file" id="image" name="image" accept="image/*">
+            </div>
+        </div>
+        <div id="rate">
+            <h3>Rate This Movie :- </h3>
+            <div class="stars" id="starContainer" name="stars">
+                <span class="star" data-value="1">★</span>
+                <span class="star" data-value="2">★</span>
+                <span class="star" data-value="3">★</span>
+                <span class="star" data-value="4">★</span>
+                <span class="star" data-value="5">★</span>
+            </div>
+            <input type="hidden" name="rating" id="ratingInput" value="0">
+            <p>Rating: <span id="ratingValue" name="rated"><%=post.rating%></span>/5</p>
+        </div>
+       <button type="submit"> Submit </button>
+    </form>
+
+
+    <script>
+         let file;
+        let image = document.querySelector("#image")
+        image.addEventListener("change",function(event){
+    // console.log(event.target.files[0]);
+     file = event.target.files[0];
+     const fileURL = URL.createObjectURL(file);
+     document.querySelector("#movieImage").src = fileURL;
+     console.log(fileURL);
+})
+
+const stars = document.querySelectorAll('.star');
+const ratingInput = document.getElementById('ratingInput');
+const ratingValue = document.getElementById('ratingValue');
+        let selectedRating = parseInt(ratingValue.innerText);
+        updateStars(selectedRating);
+
+        stars.forEach((star, index) => {
+            star.addEventListener('click', () => {
+                selectedRating = index + 1;
+                updateStars(selectedRating);
+                ratingValue.textContent = selectedRating;  // Display the rating value
+                ratingInput.value = selectedRating; 
+            });
+        });
+
+        function updateStars(rating) {
+            stars.forEach((star, index) => {
+                star.classList.toggle('selected', index < rating);
+            });
+        }
+    </script>
+</body>
+</html>

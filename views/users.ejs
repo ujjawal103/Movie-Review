@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users-access</title>
+    <link rel="stylesheet" href="styleSheets/user.css">
+</head>
+<body>
+    <div id="main">
+        <h2>Available Users</h2>
+        <ol>
+        <% for(let user of users){ %>
+              <li>
+                <div id="userName">
+                   <%= user.name %>
+                </div>
+                <a href="/users/<%=user.name%>">Login</a>
+            </li>
+            
+            
+        <% } %>
+        </ol>
+    </div>
+</body>
+</html>

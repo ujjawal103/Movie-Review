@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password - login</title>
+    <link rel="stylesheet" href="/styleSheets/enterPass.css">
+</head>
+<body>
+    <div id="main">
+        <header>
+            <img src="/images/<%=pass%>.jpg" alt="User Avtar">
+            <h3><%= name %></h3>
+        </header>
+        <form method="post" action="/users/<%=name%>/profile">
+            <h1>@<%= name %></h1>
+            <div id="pass">
+                 <label for="password">Enter Your Password: </label>
+                <input type="number" placeholder="Hint : His phone no." id="password" name="password" required>
+            </div>
+                <% if(incorrectPass === 1){%>
+                    <p><small style="color: red;">Incorrect Password !! Please Try Again.</small></p>
+                <% } %>
+                <% if(incorrectPass === 2){%>
+                    <p><small style="color: rgb(144, 136, 136);">Password required<sup style="color: red;">*</sup></small></p>
+                <% } %>
+           
+             <button type="submit">Submit</button>
+        </form>
+        
+
+    </div>
+</body>
+</html>

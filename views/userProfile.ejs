@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="/styleSheets/userProfile.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="/images/<%=pass%>.jpg" alt="User Avtar">
+            <h3>@<%=name%></h3>
+        </div>
+        <section>
+            <a href="/">Home</a>
+            <a href="/users/<%=name%>/new">Add A Movie Review</a>
+            <a href="/users">LogOut</a>
+        </section>
+        
+    </header>
+    <header id="fakeWala"></header>
+    <div id="main">
+        <% for(let post of posts){ %>
+         <div class="all">
+            <h2>@<%= post.username %></h2>
+            <div class="reviews">
+                <div class="left">
+                    <h1><%= post.movie %></h1>
+                    <p><%= post.review %></p>
+                </div>
+               <div class="right">
+                 <div class="pic">
+                    <img src="<%= post.imagePath %>" alt="movie Image">
+                 </div>
+                 <div class="stars">
+                    <% for(let i = 0 ; i<post.rating ; i++){  %>
+                        <span class="star gold">★</span>
+                    <% } %>
+                    <% for(let i = post.rating ; i<5 ; i++){  %>
+                        <span class="star">★</span>
+                    <% } %>
+                 </div>
+                 <div class="options" >
+                    <form method="post" action="/users/<%=post.username%>/<%=post.id%>/edit?_method=PATCH">
+                        <button type="submit"><i class="ri-edit-line"></i> &nbsp; Edit Review</button>
+                    </form>
+                    <form method="post" action="/users/<%=post.username%>/<%=post.id%>/?_method=DELETE" >
+                        <button type="submit"class="red2"><i class="ri-delete-bin-line"></i> &nbsp; Delete Review</button>
+                    </form>
+                </div>
+               </div>
+            </div>
+           
+         </div>
+        <% } %>
+    </div>
+</body>
+</html>
