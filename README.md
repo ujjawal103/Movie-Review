@@ -1,4 +1,3 @@
-Here’s your **updated** `README.md` with the **deployment section removed** and **author name added**:  
 
 ---
 
