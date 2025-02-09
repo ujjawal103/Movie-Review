@@ -33,27 +33,27 @@ let previousUser="";
 let users = [
     {
         name : "Vikas Tiwari",
-        pass : 7607674205,
+        pass : 11111,
     },
     {
         name : "Satyam Raj",
-        pass : 9119869107,
+        pass : 22222,
     },
     {
         name : "Satyam Sharma",
-        pass : 9621965441,
+        pass : 33333,
     },
     {
         name : "Shailendra Singh",
-        pass : 8052200225,
+        pass : 44444,
     },
     {
         name : "Ujjawal Jaiswal",
-        pass : 7800466039,
+        pass : 55555,
     },
     {
         name : "Dheeraj Singh",
-        pass : 7800337275,
+        pass : 66666,
     },
 ];
 
